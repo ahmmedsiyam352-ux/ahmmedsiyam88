@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star My Repository</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #161b22;
+  padding: 35px 25px;
+  border-radius: 18px;
+  text-align: center;
+  border: 1px solid #30363d;
+  width: 280px;
+}
+
+.star {
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+button {
+  background: #f0c000;
+  color: #111;
+  border: none;
+  padding: 13px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffd633;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+  <div class="star">⭐</div>
+  <h1>Star My Repository</h1>
+  <p>আমার GitHub Repository ভালো লাগলে একটি Star দিয়ে সাপোর্ট করো!</p>
+
+  <button onclick="window.open(
+  'https://github.com/YOUR-USERNAME/YOUR-REPO',
+  '_blank'
+  )">
+  ⭐ Give a Star
+  </button>
+</div>
+</body>
+</html>
